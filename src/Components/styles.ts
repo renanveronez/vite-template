@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  background-color: #0003 ;
   width: 100%;
-  padding: 5rem 10rem;
+  padding: 1rem 10rem;
 `
 
 export const SwitchIcon = styled.img`
