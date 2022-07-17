@@ -4,8 +4,8 @@ import Switch from 'react-switch';
 import { ThemeContext } from 'styled-components';
 
 import { Container, SwitchIcon } from './styles';
-import MoonIcon from '../Assets/moon.png';
-import SunIcon from '../Assets/sun.png';
+import MoonIcon from '../../Assets/moon.png';
+import SunIcon from '../../Assets/sun.png';
 
 interface DarkEffectProps {
   toggleTheme: () => void;

@@ -1,15 +1,17 @@
-import { useState } from 'react';
-import { BrowserRouter } from 'react-router-dom';
-import { ThemeProvider } from 'styled-components';
-
-import MainPage from './Components/index';
-import { Router } from './Router';
 import GlobalStyle from './styles/global';
-import darkTheme from './styles/themes/dark';
+
+import { BrowserRouter } from 'react-router-dom';
+import { Router } from './Router';
+
+import { ThemeProvider } from 'styled-components';
+import DarkEffect from './Components/DarkEffect';
 import lightTheme from './styles/themes/light';
+import darkTheme from './styles/themes/dark';
+
+import usePersistedState from './utils/usePersistedDate';
 
 function App() {
-  const [theme, setTheme] = useState(lightTheme);
+  const [theme, setTheme] = usePersistedState("theme", lightTheme);
 
   const toggleTheme = () => {
     setTheme(theme.title === 'light' ? darkTheme : lightTheme);
@@ -17,13 +19,11 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <div className="App">
-        <GlobalStyle />
-        <MainPage toggleTheme={toggleTheme} />
-        <BrowserRouter>
-          <Router />
-        </BrowserRouter>
-      </div>
+      <GlobalStyle />
+      <DarkEffect toggleTheme={toggleTheme} />
+      <BrowserRouter>
+        <Router />
+      </BrowserRouter>
     </ThemeProvider>
   );
 }
