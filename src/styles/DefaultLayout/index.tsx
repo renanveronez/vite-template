@@ -1,12 +1,14 @@
-// import { Header } from "../../components/Header";
+import { Header } from "../../Components/Header";
 import { LayoutContainer } from "./styles";
 import { Outlet } from "react-router-dom";
+import { Footer } from "../../Components/Footer";
 
 export function DefaultLayout() {
   return (
     <LayoutContainer>
-      {/* <Header /> */}
+      <Header />
       <Outlet />
+      <Footer />
     </LayoutContainer>
   );
 }

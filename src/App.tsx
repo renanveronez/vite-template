@@ -1,12 +1,12 @@
-import GlobalStyle from './styles/global';
+import { GlobalStyle } from './styles/global';
 
 import { BrowserRouter } from 'react-router-dom';
 import { Router } from './Router';
 
 import { ThemeProvider } from 'styled-components';
 import DarkEffect from './Components/DarkEffect';
-import lightTheme from './styles/themes/light';
-import darkTheme from './styles/themes/dark';
+import { lightTheme, darkTheme } from './styles/themes/lightDark';
+// import { darkTheme } from './styles/themes/dark';
 
 import usePersistedState from './utils/usePersistedDate';
 

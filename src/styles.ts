@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HomeContainer = styled.div`
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 15rem);
   background-color: #2E2E2E;
 
   > main {

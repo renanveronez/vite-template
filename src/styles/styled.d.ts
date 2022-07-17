@@ -5,6 +5,7 @@ declare module 'styled-components' {
     title: string,
 
     colors: {
+      base_background: string,
       primary: string,
       feature: string,
       bug: string,
@@ -18,6 +19,11 @@ declare module 'styled-components' {
       components_background: string,
       border: string,
       switch: string
+    },
+
+    fonts: {
+      title: string,
+      regular: string,
     }
   }
 }

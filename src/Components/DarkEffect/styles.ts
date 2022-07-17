@@ -1,12 +1,18 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  position: absolute;
   display: flex;
-  flex-direction: column;
-  /* min-height: 100vh; */
-  background-color: #0003 ;
   width: 100%;
-  padding: 1rem 10rem;
+  height: 5rem;
+  align-items: center;
+  justify-content: right;
+  padding: 0rem 1rem 0 0;
+
+  h1 {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
 `
 
 export const SwitchIcon = styled.img`

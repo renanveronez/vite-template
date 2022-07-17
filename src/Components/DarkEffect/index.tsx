@@ -16,7 +16,7 @@ const DarkEffect: React.FC<DarkEffectProps> = ({ toggleTheme }) => {
 
   return (
     <Container>
-      <h1>Dark <span>Effect</span></h1>
+      {/* <h1>Dark <span>Effect</span></h1> */}
       <Switch
         onChange={toggleTheme}
         checked={title === 'light'}
