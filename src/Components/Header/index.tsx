@@ -1,9 +1,10 @@
+import MenuMobile from "./MenuMobile";
 import { HeaderContainer } from "./styles";
 
 export function Header() {
   return (
     <HeaderContainer>
-      <h1>Header</h1>
+      <MenuMobile />
     </HeaderContainer>
   );
 }

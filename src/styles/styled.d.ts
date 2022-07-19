@@ -19,6 +19,13 @@ declare module 'styled-components' {
       components_background: string,
       border: string,
       switch: string
+
+      textMenuBarActive: string,
+      textMenuBarOff: string,
+      textMenuHover: string,
+      text: string,
+      textHighlight: string,
+      textLight: string,
     },
 
     fonts: {

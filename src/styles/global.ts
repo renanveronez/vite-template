@@ -53,5 +53,9 @@ export const GlobalStyle = createGlobalStyle`
       color: ${({ theme }) => theme.colors["primary"]};
     }
   }
+
+  ul {
+    list-style-type: none;
+  }
  
 `

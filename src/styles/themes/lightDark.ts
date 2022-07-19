@@ -16,7 +16,13 @@ export const lightTheme = {
     "placeholder": '#BBBBBB',
     "components_background": '#71E567',
     "border": '#D8D8D8',
-    "switch": '#EB622F'
+    "switch": '#EB622F',
+    "textMenuBarActive": '#EE6666',
+    "textMenuBarOff": '#000',
+    "textMenuHover": '#EE6666',
+    "text": '#848DA0',
+    "textHighlight": '#444B5B',
+    "textLight": '#C4C4C4',
   },
 
   fonts: {
@@ -43,7 +49,14 @@ export const darkTheme = {
     "placeholder": '#BBBBBB',
     "components_background": '#2E2E2E',
     "border": '#878787',
-    "switch": '#505050'
+    "switch": '#505050',
+
+    "textMenuBarActive": '#00EE00',
+    "textMenuBarOff": '#C4C4C4',
+    "textMenuHover": '#00cd00',
+    "text": '#848DA0',
+    "textHighlight": '#444B5B',
+    "textLight": '#C4C4C4',
   },
 
   fonts: {
