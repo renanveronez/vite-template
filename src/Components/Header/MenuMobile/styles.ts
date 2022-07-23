@@ -14,7 +14,7 @@ export const Container = styled.header`
   justify-content: right;
   text-align: center;
   grid-template-columns: 15% 85%;
-  height: 4.5rem;
+  height: 5rem;
   background-color: ${({ theme }) => theme.colors["background"]};
   border-bottom: 1px solid ${({ theme }) => theme.colors["background"]};
 
