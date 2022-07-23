@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import NavLink from './NavLink';
-import { Container } from './styles';
+import NavLink from '../NavLink';
+import { Container } from '../styles';
 import { X } from 'phosphor-react'
 
 

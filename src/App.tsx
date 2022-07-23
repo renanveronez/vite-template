@@ -20,7 +20,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <DarkEffect toggleTheme={toggleTheme} />
+      {/* <DarkEffect toggleTheme={toggleTheme} /> */}
       <BrowserRouter>
         <Router />
       </BrowserRouter>
