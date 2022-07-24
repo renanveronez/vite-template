@@ -1,15 +1,18 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  z-index: 9;
-  position: absolute;
+  z-index: 2;
+  position: fixed;
   display: flex;
   /* width: 100%; */
-  right: 0;
-  height: 5rem;
+  left: 10rem;
+  height: 5.5rem;
   align-items: center;
-  justify-content: right;
-  padding: 0rem 1rem 0 0;
+  padding: 0rem 0rem 0 2rem;
+
+  @media (max-width: 350px) {
+    padding: 0rem 0rem 0 0rem;
+  }
 `
 
 export const SwitchIcon = styled.img`

@@ -218,7 +218,7 @@ export const Container = styled.div`
       background: black;
       // backdrop-filter: blur(20px);
       opacity: 0.95;
-      z-index: 1;
+      z-index: 9;
       /*camada acima, evitar o scrool dos itens a baixo*/
       display: flex;
       justify-content: center;
