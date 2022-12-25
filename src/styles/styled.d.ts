@@ -5,6 +5,18 @@ declare module 'styled-components' {
     title: string,
 
     colors: {
+
+      background_header: string,
+      textMenuBarActive: string,
+      textMenuBarOff: string,
+      textMenuHover: string,
+
+      background_menu: string,
+
+      text: string,
+      textHighlight: string,
+      textLight: string,
+
       base_background: string,
       primary: string,
       feature: string,
@@ -20,12 +32,7 @@ declare module 'styled-components' {
       border: string,
       switch: string
 
-      textMenuBarActive: string,
-      textMenuBarOff: string,
-      textMenuHover: string,
-      text: string,
-      textHighlight: string,
-      textLight: string,
+
     },
 
     fonts: {
