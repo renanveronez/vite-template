@@ -30,6 +30,7 @@ export const Container = styled.div`
   width: 100%;
   background-color: ${({ theme }) => theme.colors["background_header"]};
   
+  
   @media (max-width: 999px) {
     .menuDesktop {
       display: none;
@@ -77,8 +78,8 @@ export const Container = styled.div`
 
 export const Desktop = styled.div`
   display: flex;
-  justify-content: right;
-  margin: 0 2rem 0 0;
+  justify-content: center;
+  margin: 0 0rem 0 0;
 
 
   @media (max-width: 999px) {
@@ -99,6 +100,7 @@ export const Desktop = styled.div`
     }
 
     li {
+      color: ${({ theme }) => theme.colors["textMenuBarOff"]};
       padding: 0 0rem 0 0rem;
       list-style: none;
       text-align: center;
@@ -113,7 +115,7 @@ export const Desktop = styled.div`
       
 
       &:hover {
-        /* color: "red"; */
+        color: ${({ theme }) => theme.colors["textMenuBarOffHover"]};
       }
 
       @media (max-width: 1200px) {
@@ -125,16 +127,13 @@ export const Desktop = styled.div`
   }
 
   .menu {
-    
     .item {
       margin: 0 0px;
       padding: 2.82rem 0.33rem;
     }
-
     .item:hover {
       background-color: ${({ theme }) => theme.colors["background_menu"]};
       /* color: ${({ theme }) => theme.colors["textHighlight"]}; */
-
       .submenu {
         display: block;
       }
@@ -147,14 +146,16 @@ export const Desktop = styled.div`
     text-transform: none;
     display: none;
     position: absolute;
-    width: 16rem;
-    background-color: ${({ theme }) => theme.colors["background_menu"]};
+    width: 12rem;
+    background-color: ${({ theme }) => theme.colors["background_submenu"]};
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
+    
     margin-top: 2.3rem;
     margin-left: -0.33rem;
 
     .subItem {
+      color: ${({ theme }) => theme.colors["textMenuBarOffHover"]};
       line-height: 25px;
       padding: 10px 20px 10px 20px;
       margin-bottom: 25px;
@@ -206,12 +207,17 @@ export const Mobile = styled.div`
     }
 
     li {
+      color: ${({ theme }) => theme.colors["textMenuBarOffMobile"]};
+      font-size: 1.4rem;
       height: 0.5rem;
 
       @media (max-width: 500px) {
         height: 0rem;
       }
 
+      :hover {
+      color: ${({ theme }) => theme.colors["textMenuBarOffMobileHover"]};
+      }
     }
   }
 }
@@ -236,7 +242,7 @@ export const Mobile = styled.div`
   .one,
   .two,
   .three {
-    background-color: blue;
+    background-color: ${({ theme }) => theme.colors["barMenuToggleMobile"]};
     height: 5px;
     width: 100%;
     margin: 6px auto;
@@ -264,7 +270,7 @@ export const Mobile = styled.div`
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: black;
+    background: #D6D6D6;
     // backdrop-filter: blur(20px);
     opacity: 0.95;
     z-index: 9;
@@ -289,7 +295,7 @@ export const Mobile = styled.div`
 
   .menuSectionOn .menuToggle .one {
     transform: rotate(45deg) translate(7px, 7px);
-    background-color: rgb(255, 255, 255);
+    background-color: #000;
   }
 
   .menuSectionOn .menuToggle .two {
@@ -298,7 +304,7 @@ export const Mobile = styled.div`
 
   .menuSectionOn .menuToggle .three {
     transform: rotate(-45deg) translate(8px, -9px);
-    background-color: rgb(255, 255, 255);
+    background-color: #000;
   }
 }
 

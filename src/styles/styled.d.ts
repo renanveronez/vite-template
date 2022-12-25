@@ -7,8 +7,18 @@ declare module 'styled-components' {
     colors: {
 
       background_header: string,
-      textMenuBarActive: string,
+
+      background_menu: string,
+      background_submenu: string,
       textMenuBarOff: string,
+      textMenuBarOffHover: string,
+
+      barMenuToggleMobile: string,
+      textMenuBarOffMobile: string,
+      textMenuBarOffMobileHover,
+
+      itemMenuHover: string,
+      textMenuBarActive: string,
       textMenuHover: string,
 
       background_menu: string,

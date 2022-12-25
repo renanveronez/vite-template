@@ -2,17 +2,22 @@ export const lightTheme = {
   title: 'light',
 
   colors: {
-    // Header
-    "background_header": '#96908B',
-
-    "textMenuBarActive": '#000',
-    "textMenuBarOff": '#C4C4C4',
-    "textHighlight": '#fff',
-    "background_menu": '#4A4644',
-
     "text_primary": '#EE6666',
     "text_secondary": '#EE6666',
     "text_tertiary": '#939393',
+
+    // Header
+    "background_header": '#FFF',
+    "background_menu": '#000',
+    "background_submenu": '#000',
+    "textMenuBarOff": '#000',
+    "textMenuBarOffHover": '#FFF',
+
+    // Header: Mobile
+    "textMenuBarOffMobile": '#000',
+    "textMenuBarOffMobileHover": '#857878',
+    "barMenuToggleMobile": '#000',
+
 
     "background": '#F7F5F4',
 
@@ -45,10 +50,22 @@ export const darkTheme = {
     "text_primary": '#BBBBBB',
     "text_secondary": '#C6C6C6',
     "text_tertiary": '#939393',
-    "background_header": '#514B47',
-    "background_menu": '#fff',
-    "background": '#1B1B1B',
 
+    // Header
+    "background_header": '#0C0C0C',
+    "background_menu": '#857878',
+    "background_submenu": '#857878',
+    "textMenuBarOff": '#C4C4C4',
+    "textMenuBarOffHover": '#0C0C0C',
+
+    // Header:Mobile 
+    "textMenuBarOffMobile": '#fff',
+    "textMenuBarOffMobileHover": '#857878',
+    "barMenuToggleMobile": '#fff',
+
+
+    "textMenuBarActive": '#00EE00',
+    "background": '#1B1B1B',
     "primary": '#EB622F',
     "feature": '#F47E52',
     "bug": '#EE6666',
@@ -59,9 +76,6 @@ export const darkTheme = {
     "border": '#878787',
     "switch": '#505050',
 
-    "textMenuBarActive": '#00EE00',
-    "textMenuBarOff": '#C4C4C4',
-    "textMenuHover": '#00cd00',
     "text": '#848DA0',
     "textHighlight": '#444B5B',
     "textLight": '#C4C4C4',

@@ -2,6 +2,7 @@ export const darkTheme = {
   title: 'dark',
 
   colors: {
+    "background_header": '#fff',
     "base_background": '#EB62de',
     "primary": '#EB622F',
     "feature": '#F47E52',
@@ -13,7 +14,7 @@ export const darkTheme = {
     "text_tertiary": '#939393',
     "placeholder": '#BBBBBB',
     "background": '#1B1B1B',
-    "components_background": '#2E2E2E',
+    // "components_background": '#2E2E2E',
     "border": '#878787',
     "switch": '#505050'
   },

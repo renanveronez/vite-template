@@ -59,7 +59,7 @@ export function MenuResponsive() {
 
                   <nav className="menuMobile">
                     <ul className="menu">
-                      <NavLink path="/second">
+                      <NavLink path="/">
                         <li className="item">
                           Home
                         </li>
