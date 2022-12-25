@@ -129,7 +129,7 @@ export const Desktop = styled.div`
   .menu {
     .item {
       margin: 0 0px;
-      padding: 2.82rem 0.33rem;
+      padding: 2rem 0.33rem;
     }
     .item:hover {
       background-color: ${({ theme }) => theme.colors["background_menu"]};
@@ -151,7 +151,7 @@ export const Desktop = styled.div`
     padding-top: 15px;
     padding-bottom: 25px;
     
-    margin-top: 2.3rem;
+    margin-top: 1.5rem;
     margin-left: -0.33rem;
 
     .subItem {
