@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   bottom: 0;
   align-items: center;
@@ -18,6 +18,10 @@ export const FooterContainer = styled.footer`
       width: 100%;
       display: flex;
       justify-content: center;
+
+      @media (max-width: 700px) {
+      flex-direction: column;
+    }
 
       .column {
         padding: 1rem 4rem;

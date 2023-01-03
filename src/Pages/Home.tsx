@@ -1,10 +1,7 @@
-import { HomeContainer } from "../styles";
+import { TopSection } from "../Components/Home/TopSection";
 
 export function Home() {
-
   return (
-    <HomeContainer>
-      <h1>Home</h1>
-    </HomeContainer>
+    <TopSection />
   )
 }

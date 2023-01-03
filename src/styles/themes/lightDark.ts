@@ -1,6 +1,6 @@
 export const lightTheme = {
   title: 'light',
-
+  imgUrl: '',
   colors: {
     "text_primary": '#EE6666',
     "text_secondary": '#EE6666',
@@ -48,7 +48,7 @@ export const lightTheme = {
 
 export const darkTheme = {
   title: 'dark',
-
+  imgUrl: '',
   colors: {
     "text_primary": '#BBBBBB',
     "text_secondary": '#C6C6C6',
