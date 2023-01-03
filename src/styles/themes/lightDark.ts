@@ -18,6 +18,9 @@ export const lightTheme = {
     "textMenuBarOffMobileHover": '#857878',
     "barMenuToggleMobile": '#000',
 
+    // Footer
+    "footerBackgroundStart": '#FFF',
+    "footerBackgroundEnd": '#F1F1F1',
 
     "background": '#F7F5F4',
 
@@ -63,6 +66,8 @@ export const darkTheme = {
     "textMenuBarOffMobileHover": '#857878',
     "barMenuToggleMobile": '#fff',
 
+    // Footer
+    "footerBackground": '#0C0C0C',
 
     "textMenuBarActive": '#00EE00',
     "background": '#1B1B1B',

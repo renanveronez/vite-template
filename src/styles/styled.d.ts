@@ -21,6 +21,9 @@ declare module 'styled-components' {
       textMenuBarActive: string,
       textMenuHover: string,
 
+      footerBackgroundStart: string,
+      footerBackgroundEnd: string,
+
       background_menu: string,
 
       text: string,
