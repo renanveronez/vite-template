@@ -59,3 +59,19 @@ export const GlobalStyle = createGlobalStyle`
   }
  
 `
+
+// Min-width: 320px (smaller phone viewpoints)
+// Min-width: 480px (small devices and max screen width of mobile devices)
+// Min-width: 768px (most tablets)
+// Min-width: 992px (smaller desktop viewpoints)
+// Min-width: 1200px (large devices and wide screens)
+
+// Other specifications:
+// @media (min-width: 800px) { }
+// @media screen and (min-width: 600px) and (max-width:700px) { }
+
+// @media (max-width: 320px) { }
+// @media (max-width: 480px) { }
+// @media (max-width: 768px) { }
+// @media (max-width: 992px) { }
+// @media (max-width: 1200px) { }

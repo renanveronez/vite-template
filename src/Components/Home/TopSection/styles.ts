@@ -9,34 +9,47 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-evenly;
 
-  @media (max-width: 800px) {
+  @media (max-width: 768px) {
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   }
 
-  .left {
-    /* background-color: red; */
+// @media (max-width: 320px) { }
+// @media (max-width: 480px) { }
+// @media (max-width: 768px) { }
+// @media (max-width: 992px) { }
+// @media (max-width: 1200px) { }
+
+  .leftTop {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    @media (max-width: 800px) {
-      padding: 0 0 1rem 3rem;
+    @media (max-width: 768px) {
+      width: 90%;
+      padding: 0 0 1.5rem 0;
+      margin: -5rem 1.5rem 0 1.5rem;
     }
 
     p {
       color: black;
       font-size: 9vw;
+
+      @media (max-width: 768px) {
+        font-size: 12vw;
+        margin: 0 1.5rem 0 1.5rem;
+      } 
     }
   }
-  .right {
+
+  .rightBottom {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    @media (max-width: 800px) {
-      padding: 0 0 0rem 6rem;
+   
+    @media (max-width: 768px) {
+      width: 90%;
     }
 
     .box {
@@ -47,26 +60,51 @@ export const Container = styled.div`
       
       background-color: #EDF8FF;
       border-radius: 10px;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        margin: 0 1.5rem 0 1.5rem;
+        padding: 25px 30px 25px 30px;
+      } 
+
+      @media (max-width: 480px) { 
+        margin: 0 .5rem 0 .5rem;
+        padding: 20px 10px 20px 10px;
+      }
       
       .subtitle {
         color: black;
         font-size: 2.5vw;
         font-weight: bolder;
+        
+        @media (max-width: 768px) {
+          text-align: center;
+          padding: 10px 10px 10px 10px;
+          font-size: 1.25rem;
+        }
+        @media (max-width: 480px) {
+          font-size: 1rem;
+        }
       }
-      .content {
+      .contentBox {
         color: black;
         font-size: 1.5vw;
 
         p {
           padding-top: 1.5vw;
+
+          @media (max-width: 768px) {
+            text-align: center;
+            padding: 10px 0 0 5px;
+            font-size: 0.95rem;
+            line-height: 20px;
+          }
+          @media (max-width: 480px) {
+            font-size: 0.9rem;
+            line-height: 18px;
+          }
         }
       }
     }
   }
-
 `;
-
-export const Content = styled.div`
-  background:url(${Landscape}); 
-`;
-
