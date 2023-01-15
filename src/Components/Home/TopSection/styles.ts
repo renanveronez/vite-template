@@ -57,8 +57,14 @@ export const Container = styled.div`
       display: flex;
       flex-direction: column;
       padding: 2.5vw;
+
+      /* glass effect */
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, .45);
+      backdrop-filter: blur(5px);
       
-      background-color: #EDF8FF;
+      /* background-color: #EDF8FF; */
       border-radius: 10px;
 
       @media (max-width: 768px) {

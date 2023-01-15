@@ -7,6 +7,7 @@ export function TopSection() {
       <div className="leftTop">
         <p>WELCOME</p>
       </div>
+
       <div className="rightBottom">
         <div className="box">
           <p className="subtitle">A virtual world for NFT collectors and creators.</p>
