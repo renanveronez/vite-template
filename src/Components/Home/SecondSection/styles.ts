@@ -3,17 +3,15 @@ import Landscape from '../../../Assets/landscape.jpg';
 
 export const Container = styled.div`
   width: 100%;
-  height: calc(100vh - 4rem);
+  height: calc(100vh - 2rem);
   
   background: rgb(31,31,31);
   background: linear-gradient(180deg, rgba(31,31,31,0.95) 5%, rgba(0,0,0,1) 50%, rgba(31,31,31,1) 95%);
   display: flex;
-
-@media (min-width: 320px) { 
   flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+  justify-content: center;
+  align-items: center;
+
 
 /* .container {
   display: flex;
