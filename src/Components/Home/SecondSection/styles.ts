@@ -55,7 +55,7 @@ export const Container = styled.div`
 .title {
   font-weight: bolder;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding-bottom: 25px;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
@@ -67,20 +67,15 @@ export const Container = styled.div`
   transition-property: color;
   line-height: calc(.86135em + 12.3249px);
 
-  @media (min-width: 320px) {
+  @media (max-width: 480px) {
     font-size: 2rem;
-   }
-
-  @media (min-width: 480px) {
-   font-size: 2.5rem;
   }
 
-  @media (min-width: 768px) {
-   font-size: 2.8rem;
+  @media (max-width: 380px) {
+    font-size: 2rem;
   }
-  @media (min-width: 992px) {
-   font-size: 3rem;
-  }
+
+
 }
 
 .subtitle {
