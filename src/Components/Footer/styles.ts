@@ -8,23 +8,29 @@ export const FooterContainer = styled.footer`
   background: ${({ theme }) => theme.colors["footerBackgroundStart"]};
 
   .containerStart {
-    /* width: 1100px; */
+    width: 650px;
     display: flex;
-    padding: 1rem 0 2.5rem 0;
+    padding: 0.5rem 0 0.5rem 0;
     margin: auto;
     justify-content: center;
 
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
     .boxStart{
       width: 100%;
-      display: flex;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
       justify-content: center;
 
-      @media (max-width: 700px) {
+      @media (max-width: 768px) {
+      display: flex;
       flex-direction: column;
     }
 
       .column {
-        padding: 1rem 4rem;
+        padding: 1rem 0rem;
 
         p {
           color: black;
@@ -43,9 +49,9 @@ export const FooterContainer = styled.footer`
 
   .socialMedia {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: auto;
-    padding: 0.5rem 2rem 1.5rem 0;
+    padding: 0.5rem 0rem 2rem 0;
 
     .boxSocialMedia {
       display: flex;
@@ -71,7 +77,20 @@ export const FooterContainer = styled.footer`
     .boxEnd {
       p {
         color: #000;
+        font-size: 0.95rem;
+        @media (max-width: 480px) {
+          font-size: 0.85rem;
+        }
+        @media (max-width: 380px) {
+          font-size: 0.7rem;
+        }
       }
     }
   }
   `
+
+  // @media (max-width: 320px) { }
+
+// @media (max-width: 768px) { }
+// @media (max-width: 992px) { }
+// @media (max-width: 1200px) { }

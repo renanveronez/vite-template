@@ -35,7 +35,7 @@ export function Footer() {
       </div>
       <div className="socialMedia">
         <div className="boxSocialMedia">
-          <span>
+          <div>
             <a
               href=""
               target="_blank"
@@ -43,8 +43,8 @@ export function Footer() {
             >
               <img src={Twitter} alt="Social Media" />
             </a>
-          </span>
-          <span>
+          </div>
+          <div>
             <a
               href=""
               target="_blank"
@@ -52,8 +52,8 @@ export function Footer() {
             >
               <img src={Instagram} alt="Social Media" />
             </a>
-          </span>
-          <span>
+          </div>
+          <div>
             <a
               href=""
               target="_blank"
@@ -61,12 +61,10 @@ export function Footer() {
             >
               <img src={Facebook} alt="Social Media" />
             </a>
-          </span>
+          </div>
         </div>
 
       </div>
-
-
 
       <div className="containerEnd">
         <div className="boxEnd">
